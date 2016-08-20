@@ -20,7 +20,7 @@ public class C_Mixto {
             if (mod > a) {
                 if (mod > c) {
                     if (mod > X0) {
-                        if (a != X0) {
+                        if (a != X0 || a == X0) {
                             for (int i = 1; i <= mod; i++) {
                                 X0 = (X0 * a + c) % mod;
                                 double convertir = (double) X0 / 100;
